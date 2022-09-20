@@ -24,6 +24,27 @@
   float: left;
 }
 
+.header .wrap .header-left .triangle {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -8px;
+  width: 0;
+  height: 0;
+  border-bottom: 8px solid #fff;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+}
+
+.header .wrap .header-left li:hover > .triangle {
+  display: block;
+}
+
+.header .wrap .header-left li:hover > .download {
+  height: 148px;
+}
+
 .header .wrap .header-left .download {
   position: absolute;
   top: 40px;
@@ -31,12 +52,14 @@
   margin-left: -62px;
   width: 124px;
   height: 0;
-  line-height: 14px;
+  line-height: 10px;
   text-align: center;
   background-color: #fff;
   -webkit-box-shadow: 0 1px 5px #ccc;
           box-shadow: 0 1px 5px #ccc;
   overflow: hidden;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .header .wrap .header-left .download img {
@@ -47,10 +70,6 @@
 .header .wrap .header-left .download p {
   color: #333;
   font-size: 14px;
-}
-
-.header .wrap .header-left .download li:hover > .download {
-  height: 148px;
 }
 
 .header .wrap li {

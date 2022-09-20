@@ -19,6 +19,24 @@
     .header-left {
       float: left;
 
+      .triangle {
+        display: none;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        margin-left: -8px;
+        width: 0;
+        height: 0;
+        border-bottom: 8px solid #fff;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+      }
+      li:hover > .triangle {
+        display: block;
+      }
+      li:hover > .download {
+        height: 148px;
+      }
       .download {
         position: absolute;
         top: 40px;
@@ -26,11 +44,12 @@
         margin-left: -62px;
         width: 124px;
         height: 0;
-        line-height: 14px;
+        line-height: 10px;
         text-align: center;
         background-color: #fff;
         box-shadow: 0 1px 5px #ccc;
         overflow: hidden;
+        transition: all 0.5s;
 
         img {
           width: 90px;
@@ -40,15 +59,13 @@
           color: #333;
           font-size: 14px;
         }
-        li:hover > .download {
-          height: 148px;
-        }
       }
     }
 
     li {
       position: relative;
       float: left;
+
       a {
         color: #b0b0b0;
         &:hover {
