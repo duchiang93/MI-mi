@@ -18,10 +18,8 @@
   line-height: 40px;
   background-color: #333;
   font-size: 12px;
-
   .header-left {
     float: left;
-
     .triangle {
       display: none;
       position: absolute;
@@ -53,7 +51,7 @@
       box-shadow: 0 1px 5px #ccc;
       overflow: hidden;
       transition: all 0.5s;
-
+      z-index: 10;
       img {
         width: 90px;
         margin: 18px 17px 12px;
@@ -92,6 +90,7 @@
     text-align: center;
     cursor: pointer;
     transition: all 1s;
+
     &:hover {
       background-color: #fff;
       a {
@@ -113,6 +112,7 @@
       color: #424242;
       transition: all 0.5s;
       overflow: hidden;
+      z-index: 10;
     }
     &:hover > .cart-list {
       height: 100px;
@@ -123,6 +123,7 @@
 
 // nav
 .nav {
+  position: relative;
   width: 100%;
   height: 100px;
   background-color: #fff;
@@ -140,6 +141,7 @@
   }
 
   .search {
+    position: relative;
     width: 296px;
     height: 50px;
     float: left;
@@ -186,6 +188,26 @@
         transition: all 0.2s;
       }
     }
+    .search-list {
+      position: absolute;
+      top: 50px;
+      left: 0;
+      width: 245px;
+      height: 241px;
+      border: 1px solid #ff6700;
+      border-top: none;
+      background-color: #fff;
+      // display: none;
+      a {
+        width: 243px;
+        height: 30px;
+        padding: 6px 15px;
+        display: block;
+      }
+      input:focus ~ .search-list {
+        display: block;
+      }
+    }
   }
 
   .nav-bar {
@@ -193,15 +215,57 @@
     height: 100px;
     float: left;
     padding-left: 172px;
+
     li {
       float: left;
       padding: 38px 10px;
+
       a {
         color: #333;
         &:hover {
           color: #ff6700;
         }
       }
+      .nav-bar-list {
+        position: absolute;
+        left: 0;
+        top: 100px;
+        width: 100%;
+        height: 229px;
+        background-color: #fff;
+        border-top: 1px solid #e0e0e0;
+        box-shadow: 0 3px 4px rgba(0, 0, 0, 0.18);
+        display: none;
+        li {
+          float: left;
+          width: 204px;
+          padding-top: 35px;
+          .img-box {
+            width: 100%;
+            height: 110px;
+            border-right: 1px solid #e0e0e0;
+            margin-bottom: 16px;
+          }
+          .name1 {
+            color: #333;
+            font-size: 12px;
+            line-height: 20px;
+            text-align: center;
+          }
+          .price1 {
+            color: #ff6700;
+            font-size: 12px;
+            line-height: 20px;
+            text-align: center;
+          }
+        }
+        li:last-child .img-box {
+          border-right: none;
+        }
+      }
+    }
+    li:hover > .nav-bar-list {
+      display: block;
     }
   }
 }
