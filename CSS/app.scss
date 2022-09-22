@@ -169,7 +169,7 @@
     input:focus + a {
       border-color: #ff6700;
     }
-    a {
+    > a {
       float: left;
       width: 50px;
       height: 50px;
@@ -197,16 +197,19 @@
       border: 1px solid #ff6700;
       border-top: none;
       background-color: #fff;
-      // display: none;
-      a {
+      display: none;
+      > a {
         width: 243px;
         height: 30px;
         padding: 6px 15px;
         display: block;
+        color: #424242;
+        font-size: 12px;
+        text-align: left;
       }
-      input:focus ~ .search-list {
-        display: block;
-      }
+    }
+    input:focus ~ .search-list {
+      display: block;
     }
   }
 

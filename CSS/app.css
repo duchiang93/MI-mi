@@ -196,7 +196,7 @@
   border-color: #ff6700;
 }
 
-.nav .search a {
+.nav .search > a {
   float: left;
   width: 50px;
   height: 50px;
@@ -210,7 +210,7 @@
   transition: all 0.2s;
 }
 
-.nav .search a:hover {
+.nav .search > a:hover {
   background-color: #ff6700;
   border-color: #ff6700;
   color: #fff;
@@ -227,16 +227,20 @@
   border: 1px solid #ff6700;
   border-top: none;
   background-color: #fff;
+  display: none;
 }
 
-.nav .search .search-list a {
+.nav .search .search-list > a {
   width: 243px;
   height: 30px;
   padding: 6px 15px;
   display: block;
+  color: #424242;
+  font-size: 12px;
+  text-align: left;
 }
 
-.nav .search .search-list input:focus ~ .search-list {
+.nav .search input:focus ~ .search-list {
   display: block;
 }
 
