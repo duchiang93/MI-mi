@@ -6,18 +6,144 @@
   "description": "",
   "glyphs": [
     {
-      "icon_id": "15053945",
-      "name": "放大镜",
-      "font_class": "ic_search24px",
-      "unicode": "e616",
-      "unicode_decimal": 58902
+      "icon_id": "5027",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "3448",
+      "unicode_decimal": 13384
     },
     {
-      "icon_id": "22358027",
+      "icon_id": "90513",
+      "name": "15天无理由退货",
+      "font_class": "15tianwuliyoutuihuo",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "650750",
+      "name": "分享－余额纪录",
+      "font_class": "fenxiangyuejilu",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "677569",
+      "name": "放大镜",
+      "font_class": "fangdajing",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "708166",
+      "name": "客服",
+      "font_class": "wodekefu",
+      "unicode": "e68b",
+      "unicode_decimal": 59019
+    },
+    {
+      "icon_id": "897806",
+      "name": "箭头(2)",
+      "font_class": "jiantou2",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "1020323",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "1089338",
+      "name": "维修",
+      "font_class": "buoumaotubiao46",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "1254759",
+      "name": "1返回顶部",
+      "font_class": "1fanhuidingbu",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "1440640",
+      "name": "个人中心",
+      "font_class": "gerenzhongxin",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "2286510",
+      "name": "对话",
+      "font_class": "duihua",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "4516199",
+      "name": "电话卡",
+      "font_class": "dianhuaqia",
+      "unicode": "e733",
+      "unicode_decimal": 59187
+    },
+    {
+      "icon_id": "5184462",
+      "name": "箭头-右",
+      "font_class": "jiantou-you",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "5184463",
+      "name": "箭头-左",
+      "font_class": "jiantou-zuo",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "5300922",
+      "name": "礼物",
+      "font_class": "liwu-",
+      "unicode": "e6ae",
+      "unicode_decimal": 59054
+    },
+    {
+      "icon_id": "6102942",
+      "name": "七天无理由退换",
+      "font_class": "qitianwuliyoutuihuan",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "8288834",
+      "name": "定位",
+      "font_class": "dingwei",
+      "unicode": "e847",
+      "unicode_decimal": 59463
+    },
+    {
+      "icon_id": "11481160",
       "name": "购物车",
       "font_class": "gouwuche",
-      "unicode": "e609",
-      "unicode_decimal": 58889
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "15463298",
+      "name": "箭头-右",
+      "font_class": "jiantou-you1",
+      "unicode": "e6cf",
+      "unicode_decimal": 59087
+    },
+    {
+      "icon_id": "16421516",
+      "name": "箭头-右",
+      "font_class": "jiantou-you2",
+      "unicode": "e631",
+      "unicode_decimal": 58929
     }
   ]
 }
