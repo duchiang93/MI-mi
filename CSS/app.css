@@ -229,6 +229,7 @@
   border-top: none;
   background-color: #fff;
   display: none;
+  z-index: 9;
 }
 
 .nav .search .search-list > a {
@@ -280,6 +281,7 @@
   -webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, 0.18);
           box-shadow: 0 3px 4px rgba(0, 0, 0, 0.18);
   display: none;
+  z-index: 9;
 }
 
 .nav .nav-bar li .nav-bar-list li {
@@ -326,7 +328,7 @@
   position: relative;
 }
 
-.banner .banner-box {
+.banner > .wrap .banner-box {
   width: 1226px;
   height: 460px;
   background-image: url(../IMG/輪播1.jpg);
@@ -335,7 +337,7 @@
           animation: banner 10s ease-in 1s infinite;
 }
 
-.banner .banner-box:hover {
+.banner > .wrap .banner-box:hover {
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
 }
@@ -370,7 +372,7 @@
   }
 }
 
-.banner .slide {
+.banner > .wrap .slide {
   position: absolute;
   left: 0;
   top: 0;
@@ -380,31 +382,68 @@
   background-color: rgba(105, 101, 101, 0.6);
 }
 
-.banner .slide li {
+.banner > .wrap .slide li {
   height: 42px;
   line-height: 42px;
   padding-left: 30px;
 }
 
-.banner .slide li:hover {
+.banner > .wrap .slide li:hover {
   background-color: #ff6700;
 }
 
-.banner .slide li a {
+.banner > .wrap .slide li a {
   color: #fff;
   font-size: 14px;
 }
 
-.banner .slide li a i {
+.banner > .wrap .slide li a i {
   float: right;
   margin-right: 20px;
 }
 
-.banner .slide li .slide-list {
+.banner > .wrap .slide li .slide-list {
+  position: absolute;
+  top: 0;
+  left: 234px;
   width: 992px;
-  height: 458px;
+  height: 460px;
   background-color: #fff;
   border: 1px solid #e0e0e0;
   border-left: none;
+  padding-top: 2px;
+  -webkit-box-shadow: 0 8px 16px rgba0, 0, 0, rgba(0, 0, 0, 0.18);
+          box-shadow: 0 8px 16px rgba0, 0, 0, rgba(0, 0, 0, 0.18);
+}
+
+.banner > .wrap .slide li .slide-list ul {
+  width: 248px;
+  float: left;
+}
+
+.banner > .wrap .slide li .slide-list ul li {
+  width: 100%;
+  height: 76px;
+  background-color: #fff;
+  padding: 18px 0 18px 20px;
+}
+
+.banner > .wrap .slide li .slide-list ul li img {
+  margin-right: 12px;
+  width: 40px;
+}
+
+.banner > .wrap .slide li .slide-list ul li span {
+  line-height: 40px;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #333;
+  vertical-align: top;
+}
+
+.banner > .wrap .slide li:hover > .slide-list {
+  display: block;
 }
 /*# sourceMappingURL=app.css.map */
