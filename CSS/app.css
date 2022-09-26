@@ -507,6 +507,8 @@
   opacity: 0.8;
   margin: 0px 4px;
   margin-bottom: 4px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .banner > .wrap .dot a:hover {
@@ -594,5 +596,128 @@
 .adv .adv-img img {
   width: 100%;
   height: 170px;
+}
+
+.main {
+  width: 100%;
+  background-color: #f5f5f5;
+  padding: 4px 0 12px;
+}
+
+.main .home-banner-box img {
+  width: 100%;
+  height: 120px;
+  margin: 22px 0;
+}
+
+.main .title {
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 58px;
+  color: #333;
+}
+
+.main .title .more {
+  float: right;
+  font-size: 16px;
+  line-height: 58px;
+  color: #424242;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.main .title .more i {
+  width: 12px;
+  height: 12px;
+  padding: 4px;
+  border-radius: 50%;
+  background-color: #b0b0b0;
+  color: #fff;
+  line-height: 12px;
+  margin-left: 8px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.main .title .more:hover {
+  color: #ff6700;
+}
+
+.main .title .more:hover i {
+  background-color: #ff6700;
+}
+
+.main .home-box {
+  width: 100%;
+  height: 614px;
+}
+
+.main .home-box .home-box-left {
+  width: 234px;
+  height: 614px;
+  float: left;
+}
+
+.main .home-box .home-box-left img {
+  width: 234px;
+  height: 614px;
+}
+
+.main .home-box .home-box-right {
+  width: 992px;
+  height: 614px;
+  float: left;
+  text-align: center;
+}
+
+.main .home-box .home-box-right .items {
+  width: 234px;
+  height: 300px;
+  background-color: #fff;
+  float: left;
+  margin-bottom: 14px;
+  margin-left: 14px;
+}
+
+.main .home-box .home-box-right .items .img1 {
+  width: 160px;
+  margin-top: 20px;
+  margin-bottom: 18px;
+}
+
+.main .home-box .home-box-right .items .name2,
+.main .home-box .home-box-right .items .desc2 {
+  width: 214px;
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.main .home-box .home-box-right .items .name2 {
+  height: 21px;
+  line-height: 21px;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 2px;
+}
+
+.main .home-box .home-box-right .items .desc2 {
+  height: 18px;
+  line-height: 18px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: #b0b0b0;
+}
+
+.main .home-box .home-box-right .items .price2 {
+  color: #ff6700;
+  font-size: 14px;
+}
+
+.main .home-box .home-box-right .items .price2 del {
+  color: #b0b0b0;
+  margin-left: 7px;
 }
 /*# sourceMappingURL=app.css.map */
