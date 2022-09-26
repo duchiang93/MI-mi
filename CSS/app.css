@@ -8,6 +8,11 @@
   text-decoration: none;
 }
 
+del {
+  text-decoration: line-through;
+  color: #555;
+}
+
 .wrap {
   width: 1226px;
   margin: 0 auto;
