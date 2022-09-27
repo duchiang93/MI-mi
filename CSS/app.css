@@ -665,16 +665,16 @@ del {
   transition: all 0.2s linear;
 }
 
-.main .home-box .home-box-left1:hover {
+.main .home-box .home-box-left img {
+  width: 234px;
+  height: 614px;
+}
+
+.main .home-box .home-box-left1 :hover {
   -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
           box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
   -webkit-transform: translateY(-2px);
           transform: translateY(-2px);
-}
-
-.main .home-box .home-box-left1 img {
-  width: 234px;
-  height: 614px;
 }
 
 .main .home-box .home-box-right {
@@ -742,5 +742,24 @@ del {
 .main .home-box .home-box-right .items .price2 del {
   color: #b0b0b0;
   margin-left: 7px;
+}
+
+.main .ele .home-box .home-box-left .items {
+  margin-left: 0;
+  margin-bottom: 14px;
+}
+
+.main .ele .home-box .home-box-left .items img {
+  width: 234px;
+  height: 300px;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.main .ele .home-box .home-box-left .items img:hover {
+  -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
 }
 /*# sourceMappingURL=app.css.map */

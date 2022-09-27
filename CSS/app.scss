@@ -565,17 +565,16 @@ del {
       height: 614px;
       float: left;
       transition: all 0.2s linear;
-    }
-    .home-box-left1 {
-      &:hover {
-        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-        transform: translateY(-2px);
-      }
       img {
         width: 234px;
         height: 614px;
       }
     }
+    .home-box-left1 :hover {
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+      transform: translateY(-2px);
+    }
+
     .home-box-right {
       width: 992px;
       height: 614px;
@@ -628,6 +627,26 @@ del {
           del {
             color: #b0b0b0;
             margin-left: 7px;
+          }
+        }
+      }
+    }
+  }
+  // 家電
+  .ele {
+    .home-box {
+      .home-box-left {
+        .items {
+          margin-left: 0;
+          margin-bottom: 14px;
+          img {
+            width: 234px;
+            height: 300px;
+            transition: all 0.2s linear;
+            &:hover {
+              box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+              transform: translateY(-2px);
+            }
           }
         }
       }
