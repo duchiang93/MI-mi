@@ -661,9 +661,18 @@ del {
   width: 234px;
   height: 614px;
   float: left;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 
-.main .home-box .home-box-left img {
+.main .home-box .home-box-left1:hover {
+  -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+
+.main .home-box .home-box-left1 img {
   width: 234px;
   height: 614px;
 }
@@ -682,6 +691,15 @@ del {
   float: left;
   margin-bottom: 14px;
   margin-left: 14px;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.main .home-box .home-box-right .items:hover {
+  -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
 }
 
 .main .home-box .home-box-right .items .img1 {

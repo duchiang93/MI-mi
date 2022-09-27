@@ -519,6 +519,7 @@ del {
   width: 100%;
   background-color: #f5f5f5;
   padding: 4px 0 12px;
+
   .home-banner-box {
     img {
       width: 100%;
@@ -526,7 +527,6 @@ del {
       margin: 22px 0;
     }
   }
-
   .title {
     font-size: 22px;
     font-weight: 200;
@@ -564,6 +564,13 @@ del {
       width: 234px;
       height: 614px;
       float: left;
+      transition: all 0.2s linear;
+    }
+    .home-box-left1 {
+      &:hover {
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        transform: translateY(-2px);
+      }
       img {
         width: 234px;
         height: 614px;
@@ -574,6 +581,7 @@ del {
       height: 614px;
       float: left;
       text-align: center;
+
       .items {
         width: 234px;
         height: 300px;
@@ -581,6 +589,11 @@ del {
         float: left;
         margin-bottom: 14px;
         margin-left: 14px;
+        transition: all 0.2s linear;
+        &:hover {
+          box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+          transform: translateY(-2px);
+        }
         .img1 {
           width: 160px;
           margin-top: 20px;
