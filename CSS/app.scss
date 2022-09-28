@@ -515,11 +515,12 @@ del {
   }
 }
 
+// main
 .main {
   width: 100%;
   background-color: #f5f5f5;
   padding: 4px 0 12px;
-
+  // 手機
   .home-banner-box {
     img {
       width: 100%;
@@ -557,6 +558,7 @@ del {
       }
     }
   }
+
   .home-box {
     width: 100%;
     height: 614px;
@@ -564,10 +566,11 @@ del {
       width: 234px;
       height: 614px;
       float: left;
-      transition: all 0.2s linear;
+
       img {
         width: 234px;
         height: 614px;
+        transition: all 0.2s linear;
       }
     }
     .home-box-left1 :hover {
@@ -634,19 +637,249 @@ del {
   }
   // 家電
   .ele {
-    .home-box {
-      .home-box-left {
-        .items {
-          margin-left: 0;
+    .home-box-left {
+      .items {
+        margin-left: 0;
+        margin-bottom: 14px;
+        img {
+          width: 234px;
+          height: 300px;
+          transition: all 0.2s linear;
+          &:hover {
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            transform: translateY(-2px);
+          }
+        }
+      }
+    }
+    .home-box-right {
+      .last-items {
+        width: 234px;
+        height: 300px;
+        float: left;
+        margin-left: 14px;
+        .last-items-top,
+        .last-items-bottom {
+          width: 234px;
+          height: 143px;
+          background-color: #fff;
+          transition: all 0.2s linear;
+          &:hover {
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            transform: translateY(-2px);
+          }
+        }
+        .last-items-top {
           margin-bottom: 14px;
-          img {
-            width: 234px;
-            height: 300px;
-            transition: all 0.2s linear;
-            &:hover {
-              box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-              transform: translateY(-2px);
+          .items-top-text {
+            width: 94px;
+            float: left;
+            margin-left: 30px;
+            margin-top: 50px;
+            text-align: left;
+            font-size: 14px;
+            .items-top-desc {
+              color: #333;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
             }
+            .items-top-price {
+              font-size: 12px;
+              color: #ff6700;
+              margin-top: 10px;
+            }
+          }
+          img {
+            width: 80px;
+            float: right;
+            margin: 32px 20px 0 0;
+          }
+        }
+        .last-items-bottom {
+          .items-bottom-text {
+            width: 94px;
+            float: left;
+            margin-left: 30px;
+            margin-top: 50px;
+            text-align: left;
+            font-size: 14px;
+            .items-bottom-more {
+              display: block;
+              font-size: 18px;
+              color: #333;
+            }
+            .items-bottom-else {
+              font-size: 12px;
+              color: #757575;
+            }
+          }
+          .items-bottom-icon {
+            font-size: 55px;
+            line-height: 140px;
+            color: #ff6700;
+          }
+        }
+      }
+    }
+  }
+  // 為你推薦
+  .recommend {
+    .title {
+      .recommend-next,
+      .recommend-prev {
+        float: right;
+        width: 36px;
+        height: 24p;
+        padding: 3px 5px;
+        border: 1px solid #e0e0e0;
+        line-height: 16px;
+        text-align: center;
+        margin-left: -1px;
+        font-weight: 900;
+        vertical-align: baseline;
+        margin-top: 15px;
+        &:hover {
+          color: #ff6700;
+        }
+      }
+    }
+
+    .recommend-box {
+      width: 100%;
+      height: 320px;
+      .recommend-items {
+        width: 234px;
+        height: 300px;
+        margin-bottom: 14px;
+        margin-right: 14px;
+        float: left;
+        background-color: #fff;
+        padding: 20px 0 20px;
+        text-align: center;
+        transition: all 0.2s linear;
+        &:hover {
+          box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+          transform: translateY(-2px);
+        }
+        img {
+          width: 140px;
+          margin-top: 20px;
+          margin-bottom: 18px;
+        }
+        p {
+          height: 18px;
+          color: #333;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+          margin-bottom: 10px;
+          font-size: 14px;
+        }
+        .recommend-price {
+          color: #ff6700;
+          margin-bottom: 10px;
+          font-size: 14px;
+        }
+      }
+      li:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+  // 內容
+  .content {
+    .content-box {
+      width: 100%;
+      height: 420px;
+      .content-items {
+        width: 296px;
+        height: 420px;
+        padding: 45px 0 0;
+        background-color: #fff;
+        float: left;
+        margin-bottom: 14px;
+        margin-right: 14px;
+        text-align: center;
+        transition: all 0.2s linear;
+        &:hover {
+          box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+          transform: translateY(-2px);
+        }
+        .title-book {
+          margin: 0 10px 18px;
+          color: #ffac13;
+          font-size: 16px;
+          font-weight: 400;
+        }
+        .content-desc {
+          margin: 0 48px 10px;
+          height: 40px;
+          font-size: 12px;
+          line-height: 20px;
+          text-align: center;
+          overflow: hidden;
+          color: #b0b0b0;
+        }
+        .btn-small {
+          width: 118px;
+          height: 28px;
+          font-size: 12px;
+          line-height: 28px;
+          text-align: center;
+        }
+        .btn-line-orange {
+          display: inline-block;
+          border: 1px solid #ffac13;
+          background-color: #fff;
+          color: #ffac13;
+
+          &:hover {
+            background-color: #ffac13;
+            color: #fff;
+            transition: all 0.5s;
+          }
+        }
+        img {
+          display: block;
+          width: 216px;
+          height: 154px;
+          margin: 30px auto 0;
+        }
+      }
+
+      .content-items-book {
+        border: 1px solid #fff;
+        border-top-color: #ffac13;
+      }
+
+      li:last-child {
+        margin-right: 0;
+      }
+      .pager-wrap {
+        position: absolute;
+        bottom: 15px;
+        left: 0;
+        width: 296px;
+        text-align: center;
+        .pager {
+          display: inline-block;
+          width: 10px;
+          height: 10px;
+          padding: 10px;
+          margin: 0 2px;
+          cursor: pointer;
+          .content-dot {
+            display: block;
+            width: 6px;
+            height: 6px;
+            border: 2px solid #f5f5f5;
+            border-radius: 6px;
+            text-align: left;
+            text-indent: -9999em;
+            overflow: hidden;
+            background-color: #b0b0b0;
+            transition: all 0.5s;
           }
         }
       }

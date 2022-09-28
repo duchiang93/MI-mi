@@ -41,6 +41,13 @@
       "unicode_decimal": 59019
     },
     {
+      "icon_id": "778500",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
       "icon_id": "897806",
       "name": "箭头(2)",
       "font_class": "jiantou2",
@@ -50,7 +57,7 @@
     {
       "icon_id": "1020323",
       "name": "右箭头",
-      "font_class": "youjiantou",
+      "font_class": "youjiantou1",
       "unicode": "e658",
       "unicode_decimal": 58968
     },
@@ -65,8 +72,8 @@
       "icon_id": "1254759",
       "name": "1返回顶部",
       "font_class": "1fanhuidingbu",
-      "unicode": "e619",
-      "unicode_decimal": 58905
+      "unicode": "e61b",
+      "unicode_decimal": 58907
     },
     {
       "icon_id": "1440640",
