@@ -125,6 +125,13 @@
       "unicode_decimal": 58941
     },
     {
+      "icon_id": "7008983",
+      "name": "play_fill",
+      "font_class": "play_fill",
+      "unicode": "e717",
+      "unicode_decimal": 59159
+    },
+    {
       "icon_id": "8288834",
       "name": "定位",
       "font_class": "dingwei",
