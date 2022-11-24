@@ -1347,6 +1347,10 @@ del {
   color: #757575;
 }
 
+.footer .site-info .info-text .sites .sep {
+  margin: 0 3px;
+}
+
 .footer .site-info .info-text p {
   color: #b0b0b0;
 }
