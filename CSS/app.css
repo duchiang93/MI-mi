@@ -101,7 +101,7 @@ del {
   float: right;
 }
 
-.header .cart {
+.header .header-right .cart {
   position: relative;
   width: 120px;
   height: 40px;
@@ -113,20 +113,20 @@ del {
   transition: all 1s;
 }
 
-.header .cart:hover {
+.header .header-right .cart:hover {
   background-color: #fff;
 }
 
-.header .cart:hover a {
+.header .header-right .cart:hover a {
   color: #ff6700;
 }
 
-.header .cart:hover i {
+.header .header-right .cart:hover i {
   margin-right: 4px;
   font-weight: 900;
 }
 
-.header .cart .cart-list {
+.header .header-right .cart .cart-list {
   position: absolute;
   top: 40px;
   right: 0;
@@ -142,7 +142,7 @@ del {
   z-index: 10;
 }
 
-.header .cart:hover > .cart-list {
+.header .header-right .cart:hover > .cart-list {
   height: 100px;
   line-height: 100px;
 }
